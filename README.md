@@ -14,7 +14,7 @@ This project showcases a chatbot that generates essays and poems based on user i
 
 ## Features
 
-- **Essay Generation**: Uses OpenAI's model to generate essays on given topics.
+- **Essay and morse code  Generation**: Uses OpenAI's model to generate essays on given topics.
 - **Poem Generation**: Uses Ollama's model (Llama2) to generate poems suitable for children on given topics.
 - **User Interface**: Streamlit-based UI for interacting with the chatbot and displaying results.
 
@@ -23,8 +23,8 @@ This project showcases a chatbot that generates essays and poems based on user i
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/langchain-chatbot.git
-cd langchain-chatbot
+git clone https://github.com/libberaj/Z-chat
+cd Z-chat
 ```
 
 ### 2. Set Up Environment
@@ -50,7 +50,7 @@ Create a `.env` file in the root directory of the project with the following con
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-Replace `your_openai_api_key` with your actual OpenAI API key.
+Replace `your_openai_api_key` with your actual OpenAI API key. You can also use open source LLMs
 
 ## Running the Project
 
@@ -111,9 +111,3 @@ For any questions or feedback, you can reach out to:
 ---
 
 
-
-### Notes
-
-1. **Replace Placeholder Information**: Be sure to replace placeholders like `your_openai_api_key`, `yourusername`, and `your-email@example.com` with your actual details.
-2. **Adjust Instructions**: Depending on the exact setup or additional configurations you have, you might need to adjust the instructions accordingly.
-3. **Add License File**: If you include a license file in your repository, make sure to mention it correctly in the `README.md`.
